@@ -1,8 +1,10 @@
 {
-    "name": "env-example-generator",
-    "displayName": "env-example-generator",
+    "name": "generate-env-example",
+    "displayName": "Generate Env Example",
     "description": "Generate .env.example by stripping values from .env",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "mrfour4",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.100.0"
     },
