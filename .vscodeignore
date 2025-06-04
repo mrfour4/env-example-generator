@@ -1,19 +1,24 @@
-.vscode/**
-.vscode-test/**
-src/**
-.gitignore
-.yarnrc
-vsc-extension-quickstart.md
-**/tsconfig.json
-**/eslint.config.mjs
-**/*.map
-**/*.ts
-**/.vscode-test.*
-node_modules
-.vscode
-out/test
-src
-*.map
+# Ignore development & source files
+.vscode/
+src/
+test/
 *.ts
-test
-README.md
+*.map
+
+# Ignore package manager & build files
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+tsconfig.json
+eslint.config.mjs
+
+# Ignore build/test helpers
+.vscode-test/
+.vscode-test.*
+out/test/
+.vscodeignore
+*.log
+
+# Optional: Ignore docs or starter files
+vsc-extension-quickstart.md
